@@ -1,0 +1,322 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: blue;
+
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 20vh;
+}
+
+.header-outer {
+  display: flex;
+  justify-content: ;
+
+  flex-direction: row;
+}
+
+.header-inner-image-container {
+  flex: 0.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-inner-text-container {
+  flex: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid black;
+  align-items: center;
+}
+
+.header h1 {
+  text-align: center;
+  color: black;
+}
+
+nav {
+  display: flex;
+  background-color: pink;
+
+  height: 6vh;
+}
+
+.nav-inner-container {
+  flex: 1;
+  background-color: orange;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 8px;
+  width: 20%;
+  height: 20px;
+  border: 3px solid black;
+  text-align: center;
+
+}
+
+.nav-inner-container a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1em;
+}
+
+.nav-inner-container a {
+  object-fit: contain;
+}
+
+.main-and-sidebar-container {
+  background-color: pink;
+
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+aside {
+  background-color: lightblue;
+  flex: 1;
+
+}
+
+.sidebar-outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-outer-container h1 {
+  margin: 5px;
+  background-color: #43df43;
+
+  color: #546de8;
+  border: 3px solid black;
+  width: 200px;
+  
+}
+.sidebar-outer-container h3 {
+  margin: 1px;
+  background-color: #43df43;
+  text-align: center;
+  color: white;
+   
+
+}
+.sidebar-inner-container {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+
+  padding: 5px;
+}
+
+.sidebar-inner-container-text-title {
+  flex: 1;
+
+  text-align: center;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+
+  background-color: #0091ff;
+  border: 2px solid black;
+  width: 20px;
+  height: 30px;
+}
+
+.sidebar-inner-container-text-value {
+  flex: 1;
+
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1em;
+}
+
+main {
+  background-color: #ea909c;
+  flex: 4
+  
+}
+
+main h1 {
+
+  margin: 20px;
+  background-color: #0091ff;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, max-min(200px, 1fr));
+}
+
+.main-grid-item-outer-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff7a3;
+   margin: 20px;
+   border: 3px solid black;
+}
+
+.main-grid-item-inner-container {
+  flex: 1;
+
+
+}
+
+.main-grid-item-inner-container h1 {
+  margin: 10px;
+  background-color: #4bd24b;
+}
+
+.main-grid-item-inner-container img {
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid black;
+  align-items: center;
+
+  max-width: 200px;
+  max-height: 200px;
+
+}
+
+.background-blue {
+  background-color: #77b3f3;
+  margin: 1%;
+ width: 80vh;
+  height: 20vh;
+  border: 2px solid black;
+ 
+  
+}
+main img {
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid black;
+  align-items: center;
+}
+.fooder {
+  background-color: #58df93;
+
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 20vh;
+}
+
+.fooder-outer {
+  display: flex;
+  justify-content: ;
+
+  flex-direction: row;
+}
+
+.fooder-inner-image-container {
+  flex: 0.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fooder-inner-text-container {
+  flex: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fooder img {
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid black;
+  align-items: center;
+}
+
+.fooder h1 {
+  text-align: center;
+  color: #1e00ff;
+}
+
+
+.sidebar-inner-container-text-title1 {
+  flex: 1;
+
+
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1em;
+
+  background-color: #ff9500;
+  border: 2px solid #757575;
+  width: 20px;
+  height: 30px;
+}
+.sidebar-inner-container-text-value1 {
+  flex: 1;
+
+ 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1em;
+   background-color: #ffffff;
+  color: #000000;
+}
+.sidebar-inner-container-text-value1 {
+  flex: 1;
+
+ 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1em;
+}
